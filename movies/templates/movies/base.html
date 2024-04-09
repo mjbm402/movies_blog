@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% comment %} bootstrap cdn 생략 {% endcomment %}
+</head>
+<body>
+    <nav>
+        <a href="http://localhost:8000/movies/">[MAIN]</a>
+        <a href="http://localhost:8000/create_movie/">[CREATE]</a>
+    </nav>
+    {% block content %}
+    {% endblock %}
+    {% comment %} bootstrap cdn 생략 {% endcomment %}
+</body>
+</html>
